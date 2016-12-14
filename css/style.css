@@ -64,25 +64,28 @@ a {
 .be:hover {background: #3079ff url(../img/header/icon-behance-on.png) no-repeat center; }
 .dri:hover {background: #eb6397 url(../img/header/icon-dribbble-on.png) no-repeat center; }
 
-.header-main {
-  display: table;
-  padding: 40px 120px;
+.header__main { border-bottom: 1px solid #E6E9ED; }
+.header__main__inner {
+  width: 1170px;
+  height: 111px;
+  margin: 0 auto;
 }
-.header-main-title {
-  display: table-cell;
-  padding-right: 90px;
+.header__main__title {
+  float: left;
+  margin: 36px 67px 0 0;
 }
-.header-main-title:hover { opacity: .7; }
-.header-main-menu {
-  display: table-cell;
-  vertical-align: middle;
+.header__main__title:hover { opacity: .7; }
+.header__main__menu {
+  float: left;
+  padding: 28px 0;
 }
-.header-main-menu > li { padding-right: 35px }
-.main-menu-list {
+.header__main__menu > li:hover { color: #20B2AA; }
+.header__main__menu > li > a {
+  display: block;
+  padding: 20px 22px;
+  font-size: 15px;
   font-weight: bold;
-  color: #506A85;
 }
-.main-menu-list:hover { color: #20B2AA; }
 .keyvisual {
   display: table;
   width: 100%;
