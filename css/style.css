@@ -1,24 +1,29 @@
-body { color: #506A85; }
+body {
+  font-family: 'Lato', sans-serif;
+  color: #506A85;
+}
 li { display: inline-block; }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
 }
-.header-top {
-  padding: 0 120px;
-  height: 40px;
+.header__top {
+  font-size: 12px;
   border: 1px solid #E6E9ED;
   background-color: #F5F7FA;
   box-sizing: border-box;
 }
-.header-top-info {
-  float: left;
+.header__top__inner {
+  width: 1170px;
+  height: 40px;
+  margin: 0 auto;
 }
-a {
-  color: inherit;
-  text-decoration: none;
-}
+.header__top__info { float: left; }
 .mr { margin-right: 20px; }
 .mail { background: url(../img/header/icon-mail-off.png) no-repeat center left; }
 .tel { background: url(../img/header/icon-tel-off.png) no-repeat center left; }
